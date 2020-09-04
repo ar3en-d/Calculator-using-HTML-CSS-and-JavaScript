@@ -1,0 +1,81 @@
+
+body {
+    display: flex;
+
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+    
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+  cursor: pointer;
+   
+  }
+
+
+.calculator{
+    font-size: 28px;
+    flex: 0 0 35%;
+
+
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  margin-top:10%;
+  border-radius: 4%;
+  border: 2px solid gold;
+  overflow: hidden;
+  box-shadow: 1px 1px 60px 20px rgb(184, 10, 169);
+    
+}
+
+.screen{
+    width: 100%;
+    font-size: 4rem;
+    padding: 1px;
+    background: rgb(89, 141, 146);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+button {
+    flex: 0 0 25%; 
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: 2s ease ;
+} 
+
+button:hover{
+    background: black;
+
+}    
+
+.btn-operators {
+    background: rgb(184, 172, 15);
+    color: white;
+}
+
+.btn-digits {
+    background: rgb(129, 132, 136);
+    color:white;
+}
+
+.btn .btn-equal .btn-clear {
+    font-size: 990% !important;
+    
+
+} 
+.btn-equal{
+    background: rgb(17, 134, 37);
+}
+.btn-clear {
+    background: rgb(185, 21, 21);
+}
